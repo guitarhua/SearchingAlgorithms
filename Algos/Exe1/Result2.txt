@@ -1,0 +1,6 @@
+Size of Table: 46370	 Size of pattern: 3
+ Brute:	0.444050
+ Carp:	1.153976
+ Sunday:	0.248099
+ KMP:	0.524642
+ FSM:	0.578371

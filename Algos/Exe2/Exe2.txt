@@ -1,0 +1,19 @@
+Sunday at least 2 times faster then brute force
+Table= "ABABCFGABABABABAC"
+pattern = "ABAB"
+The reason why it's 2 times faster is that sunday skipks size of pattern.
+
+Sunday at least 2 times fatser then KMP
+Table = "ABABCFGABABABABAC"
+pattern = "ABAB"
+The same reason why it's 2 times faster: it skips size of pattern.
+
+KMP at least 2 times faster then Rabin - Karp
+It happens when we have a lot of same latters so that suffix and prefixes are the same, so we know that they will match anyway.
+Table = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+pattern = "AA";
+
+Rabin-Karp at least 2 times faster then Sunday
+The only idea that how to ruin Sunday algorithm a bit, is to force it to check all the characters of pattern in the text
+Table = "ETQEQHFAJFSJAFBZVNCNMZXCNAFJAFMASDMFJASJASFKASFjadjsadASFDKJASSFKASFNsfamaSKFAKFSASDJFAJASFJFGKASDKFNFANFJASDASFASSFSADASDAGDSCZKXVADGANJFWQIUFAJSKFNKA"
+pattern = "qwertyuiop[]asdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"

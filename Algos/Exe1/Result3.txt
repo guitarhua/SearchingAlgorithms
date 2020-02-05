@@ -1,0 +1,6 @@
+Size of Table: 61146	 Size of pattern: 6 Pattern: saying
+ Brute:          0.553482
+ Carp:          1.507952
+ Sunday:          0.323556
+ KMP:          0.890865
+ FSM:          0.871112

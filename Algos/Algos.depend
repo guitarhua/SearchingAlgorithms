@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1560874529 source:c:\users\nik_g\onedrive\documents\study code\algos\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<cstdlib>
+	<chrono>
+	<windows.h>
+	<bits/stdc++.h>
+	<sys/time.h>
+	<stdexcept>
+	<fstream>
+	<iostream>
+	<string>
+
